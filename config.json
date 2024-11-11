@@ -4,10 +4,25 @@
     "ice_servers": ["stun:stun.l.google.com:19302"]
   },
   "streams": {
-    "H264_AAC": {
+    "uni101": {
       "on_demand": false,
       "disable_audio": true,
-      "url": "rtsp://admin:admin@176.117.205.3:5541/video1"
+      "url": "rtsp://admin:unitree12345==@192.168.123.66:554/Stream/Live/101"
+    },
+    "uni201": {
+      "on_demand": false,
+      "disable_audio": true,
+      "url": "rtsp://192.168.123.65:554/stream0"
+    },
+    "frontVideo": {
+      "on_demand": false,
+      "disable_audio": true,
+      "url": "rtsp://192.168.123.161:8551/front_video"
+    },
+    "backVideo": {
+      "on_demand": false,
+      "disable_audio": true,
+      "url": "rtsp://192.168.123.161:8552/back_video"
     }
   }
 }
